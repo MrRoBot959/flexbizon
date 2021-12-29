@@ -1,0 +1,3 @@
+flex calclogique.l
+bison -d calclogique.y
+gcc -g lex.yy.c calclogique.tab.c -o calc
